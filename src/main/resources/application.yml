@@ -1,0 +1,3 @@
+server:
+  context-path: /orther
+  port: 8007
