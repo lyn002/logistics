@@ -1,6 +1,7 @@
 package com.example.demo;
 
 import com.example.demo.service.logisticsService;
+import org.springframework.boot.SpringApplication;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -22,5 +23,6 @@ public class LogisticsApplication {
 
 	//DEMO
 	public static void main(String[] args) {
+		SpringApplication.run(LogisticsApplication.class,args);
 	}
 }
