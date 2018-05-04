@@ -2,6 +2,7 @@ package com.example.demo;
 
 import com.example.demo.service.logisticsService;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -19,6 +20,7 @@ import java.util.Map;
  * 快递鸟物流轨迹即时查询接口
  *
  */
+@SpringBootApplication
 public class LogisticsApplication {
 
 	//DEMO
